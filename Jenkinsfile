@@ -10,7 +10,7 @@ pipeline{
         }
         stage('build'){
             steps{
-                bat 'type text.txt'
+                bat 'python fact.py'
             }
         }
     }
